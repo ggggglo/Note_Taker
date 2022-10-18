@@ -1,4 +1,4 @@
-// Packages required
+// Packages and paths required
 const router = require('express').Router();
 const notesRoute = require('./notesRoute')
 
