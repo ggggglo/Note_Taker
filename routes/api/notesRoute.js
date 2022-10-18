@@ -1,7 +1,7 @@
 // Packages and paths required
 const router = require("express").Router();
-const { notes } = require('../../db/db');
-const { newNote, deleteNote } = require('../../lib/noteFunctions');
+const { notes } = require('../../db/db.json');
+const { newNote, deleteNote } = require('../../lib/noteFunction');
 
 // Create GET route for notes
 router.get('/notes', (req, res) => {

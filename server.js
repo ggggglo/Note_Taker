@@ -16,8 +16,8 @@ app.use(express.urlencoded({
 
 app.use(express.static('public'));
 app.use(express.json());
-app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+app.use('./routes/api', apiRoutes);
+app.use('./routes/api', htmlRoutes);
 
 
 app.listen(PORT, () => {

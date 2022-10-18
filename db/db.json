@@ -1,14 +1,14 @@
 {
-    "notes":[
+    "notes": [
     {
-        "id": "0",
-        "title":"This is the Note Taker Application!",
-        "text":"Note Take allows you to save and/or delete notes."
+        "title": "This is the Note Taker Application!",
+        "text": "Note Taker allows you to save and/or delete notes.",
+        "id": "0"
     },
     {   
-        "id":"1",
-        "title":"Delete your notes!",
-        "text":"Delete your notes by clicking the trash can next to the note."
+        "title": "Delete your notes!",
+        "text": "Delete your notes by clicking the trash can next to the note.",
+        "id":"1"
     }
 ]
 }
