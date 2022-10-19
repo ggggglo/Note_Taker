@@ -6,6 +6,7 @@ const { newNote, deleteNote } = require('../../lib/noteFunction');
 // Create GET route for notes
 router.get('/notes', (req, res) => {
     let saved = notes;
+    console.log("GET notes",saved)
     res.json(saved);
 })
 
